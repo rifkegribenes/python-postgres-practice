@@ -15,12 +15,12 @@ def get_player_numbers():
     user_input_split = numbers_csv.split(',')
     return {int(number) for number in user_input_split}
 
+
 def create_lottery_numbers():
     values = set()
     while len(values) < 6:
         values.add(random.randint(1,20))
     return values
 
-menu()
 
-        
+menu()
