@@ -1,7 +1,6 @@
 import random
 
-magic_numbers = [random.randint(0, 9)
-, random.randint(0, 9)]
+magic_numbers = [random.randint(0, 9) for x in range(2)]
 
 user_attempts = int(input("How many chances do you want? "))
 
