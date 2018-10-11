@@ -9,6 +9,4 @@ watched_movie = Movie("Coraline", "Children's", True)
 user.movies.append(my_movie)
 user.movies.append(watched_movie)
 
-print(user)
-print(user.movies)
-print(user.watched_movies())
+user.save_to_file()

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dc37b4b-98ff-46f3-bf89-babbe039084f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/students/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="2dc37b4b-98ff-46f3-bf89-babbe039084f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +12,7 @@
     <session id="-365527262">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="2" />
@@ -47,33 +45,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/students/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-              <folding>
-                <marker date="1539060526585" expanded="true" signature="40:242" ph="..." />
-                <marker date="1539060526585" expanded="true" signature="279:284" ph="..." />
-                <marker date="1539060526585" expanded="true" signature="279:1811" ph="..." />
-                <marker date="1539060526585" expanded="true" signature="694:699" ph="..." />
-                <marker date="1539060526585" expanded="true" signature="694:1811" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lottery.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="18" selection-start-line="18" selection-end-line="22" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <replaceStrings>
@@ -211,15 +183,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="231" y="137" width="1329" height="767" extended-state="0" />
-    <editor active="true" />
+    <frame x="104" y="97" width="1576" height="842" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26299694" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22122186" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3288889" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3288889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -248,24 +219,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lottery.py">
+    <entry file="file://$PROJECT_DIR$/students/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="18" selection-start-line="18" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="58">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <marker date="1539062466165" expanded="true" signature="499:1811" ph="..." />
+            <marker date="1539062466165" expanded="true" signature="694:699" ph="..." />
+            <marker date="1539062466165" expanded="true" signature="694:1811" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/students/app.py">
+    <entry file="file://$PROJECT_DIR$/lottery.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-          <folding>
-            <marker date="1539060526585" expanded="true" signature="40:242" ph="..." />
-            <marker date="1539060526585" expanded="true" signature="279:284" ph="..." />
-            <marker date="1539060526585" expanded="true" signature="279:1811" ph="..." />
-            <marker date="1539060526585" expanded="true" signature="694:699" ph="..." />
-            <marker date="1539060526585" expanded="true" signature="694:1811" ph="..." />
-          </folding>
+        <state relative-caret-position="326">
+          <caret line="18" selection-start-line="18" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
