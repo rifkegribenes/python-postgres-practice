@@ -15,5 +15,5 @@ class Movie:
         }
 
     @classmethod
-    def from_json(cls, json_data):
+    def from_json(cls, json_data):  # {'genre': '...', 'name': '...', 'watched': True}
         return Movie(**json_data)
