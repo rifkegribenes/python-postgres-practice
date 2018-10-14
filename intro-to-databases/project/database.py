@@ -1,5 +1,8 @@
-import psycopg2
+from psycopg2 import pool
 
-
-def connect():
-    return psycopg2.connect(user='sarahschneider', password='Q-@VWfZPUbM3M5xCyRTu', database="learning", host="localhost")
+connection_pool = pool.SimpleConnectionPool(1,
+                                            10,
+                                            database="learning",
+                                            user='sarahschneider',
+                                            password='Q-@VWfZPUbM3M5xCyRTu',
+                                            host="localhost")
