@@ -11,11 +11,16 @@ class User:
         return "<User {}>".format(self.email)
 
     def save_to_db(self):
-        connection = psycopg2.connect(user='sarahschneider', password='Q-@VWfZPUbM3M5xCyRTu', database="learning", host="localhost")
-        with connection.cursor() as cursor:
-            cursor.execute('INSERT INTO users (email, first_name, last_name) VALUES (%s, %s, %s)',
-                           (self.email, self.first_name, self.last_name))
-            pass
-        connection.commit()
-        connection.close()
+        with psycopg2.connect(user='sarahschneider', password='Q-@VWfZPUbM3M5xCyRTu', database="learning", host="localhost") as connection:
+            with connection.cursor() as cursor:
+                cursor.execute('INSERT INTO users (email, first_name, last_name) VALUES (%s, %s, %s)',
+                               (self.email, self.first_name, self.last_name))
+
+    @classmethod
+    def load_from_db_by_email(cls, email):
+        with psycopg2.connect(user='sarahschneider', password='Q-@VWfZPUbM3M5xCyRTu', database="learning", host="localhost") as connection:
+            with connection.cursor() as cursor:
+                cursor.execute('SELECT * FROM users WHERE email=%s', (email,))
+                user_data = cursor.fetchone()
+                return cls(email=user_data[1], first_name=user_data[2], last_name=user_data[3], id=user_data[0])
 
