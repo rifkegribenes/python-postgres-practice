@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d333a5a-6889-45fd-ac48-c61621ddae1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../intro-to-databases/project/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intro-to-databases/project/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../intro-to-databases/project/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../intro-to-databases/project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-to-databases/project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intro-to-databases/venv/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-to-databases/venv/bin/easy_install" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intro-to-databases/venv/bin/easy_install-3.7" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-to-databases/venv/bin/easy_install-3.7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intro-to-databases/venv/lib/python3.7/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-to-databases/venv/lib/python3.7/site-packages/easy-install.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intro-to-databases/venv/lib/python3.7/site-packages/setuptools-39.1.0-py3.7.egg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-databases/project/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-to-databases/project/user.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +15,7 @@
     <session id="636633693">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="2" />
@@ -130,9 +123,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="341" />
-    <option name="y" value="93" />
+    <option name="y" value="123" />
     <option name="width" value="1233" />
     <option name="height" value="873" />
   </component>
@@ -241,8 +234,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="341" y="93" width="1233" height="873" extended-state="1" />
-    <editor active="true" />
+    <frame x="341" y="123" width="1233" height="873" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.122112215" />
@@ -253,7 +245,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3277849" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3277849" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />

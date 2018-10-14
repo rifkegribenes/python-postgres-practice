@@ -1,4 +1,5 @@
 from user import User
 
-my_user = User('rifkegribenes@gmail.com', 'Sarah', 'Schneider', 1)
-print(my_user)
+my_user = User('rifkegribenes@gmail.com', 'Sarah', 'Schneider', None)
+
+my_user.save_to_db()
