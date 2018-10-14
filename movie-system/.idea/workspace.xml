@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d333a5a-6889-45fd-ac48-c61621ddae1b" name="Default Changelist" comment="" />
+    <list default="true" id="7d333a5a-6889-45fd-ac48-c61621ddae1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../intro-to-databases/project/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-databases/project/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-databases/project/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-databases/project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-to-databases/project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-databases/venv/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-to-databases/venv/bin/easy_install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-databases/venv/bin/easy_install-3.7" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-to-databases/venv/bin/easy_install-3.7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-databases/venv/lib/python3.7/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-to-databases/venv/lib/python3.7/site-packages/easy-install.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-databases/venv/lib/python3.7/site-packages/setuptools-39.1.0-py3.7.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="341" />
     <option name="y" value="93" />
     <option name="width" value="1233" />
@@ -231,7 +241,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="341" y="93" width="1233" height="873" extended-state="0" />
+    <frame x="341" y="93" width="1233" height="873" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.122112215" />
