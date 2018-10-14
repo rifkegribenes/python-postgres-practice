@@ -1,7 +1,10 @@
 from database import Database
 from user import User
 
-Database.initialize()
+Database.initialize(database="learning",
+                    user='sarahschneider',
+                    password='Q-@VWfZPUbM3M5xCyRTu',
+                    host="localhost")
 
 user = User('test@test.com', 'testFirstName', 'testLastName', None)
 
