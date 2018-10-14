@@ -2,3 +2,4 @@ venv/
 .env
 .git-credentials
 .gitconfig
+tweet-analyzer/project/constants.py
