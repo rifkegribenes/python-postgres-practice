@@ -1,0 +1,11 @@
+venv/
+.env
+.git-credentials
+.gitconfig
+tweet-analyzer/project/constants.py
+.idea
+tweet-analyzer/project/__pycache__/constants.cpython-37.pyc
+__pycache__/
+tweet-analyzer/project/__pycache__/
+intro-to-databases/venv/
+tweet-analyzer/venv/
