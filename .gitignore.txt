@@ -5,3 +5,4 @@ venv/
 tweet-analyzer/project/constants.py
 .idea
 tweet-analyzer/project/__pycache__/constants.cpython-37.pyc
+__pycache__/
