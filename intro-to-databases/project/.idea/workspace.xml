@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c48c0745-cbf3-4ead-977a-06b0a4e74297" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../tweet-analyzer/project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tweet-analyzer/project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tweet-analyzer/project/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tweet-analyzer/project/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../tweet-analyzer/project/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tweet-analyzer/project/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tweet-analyzer/project/login.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +14,7 @@
     <session id="184115380">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -114,7 +110,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2091" />
+    <option name="x" value="171" />
     <option name="y" value="60" />
     <option name="width" value="1566" />
     <option name="height" value="976" />
@@ -198,7 +194,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2091" y="60" width="1566" height="976" extended-state="0" />
+    <frame x="171" y="60" width="1566" height="976" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -210,7 +206,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29072398" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29072398" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
