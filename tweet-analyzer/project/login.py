@@ -9,6 +9,7 @@ response, content = client.request(constants.REQUEST_TOKEN_URL, 'POST')
 if response.status != 200:
     print("An error occurred getting the request token from Twitter")
 
+
 request_token = dict(urlparse.parse_qsl(content.decode('utf-8')))
 
 print("Go to the following site in your browser:")
