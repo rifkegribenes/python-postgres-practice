@@ -1,6 +1,7 @@
 import constants
 import oauth2
 import urllib.parse as urlparse
+import json
 
 consumer = oauth2.Consumer(constants.CONSUMER_KEY, constants.CONSUMER_SECRET)
 client = oauth2.Client(consumer)
@@ -25,3 +26,17 @@ response, content = client.request(constants.ACCESS_TOKEN_URL, 'POST')
 access_token = dict(urlparse.parse_qsl(content.decode('utf-8')))
 
 print(access_token)
+
+# Create an 'authorized_token' Token object and use that to perform Twitter API calls on behalf of the user
+authorized_token = oauth2.Token(access_token['oauth_token'], access_token['oauth_token_secret'])
+authorized_client = oauth2.Client(consumer, authorized_token)
+
+response, content = authorized_client.request('https://api.twitter.com/1.1/search/tweets.json?q=computers+filter:images')
+if response.status !=200:
+    print('An error occurred while searching')
+
+tweets = json.loads(content.decode('utf-8'))
+
+for tweet in tweets['statuses']:
+    print(tweet['text'])
+
