@@ -1,4 +1,7 @@
+import oauth2
+import json
 from database import CursorFromConnectionPool
+from twitter_utils import consumer
 
 class User:
     def __init__(self, email, first_name, last_name, oauth_token, oauth_token_secret, id=None):
@@ -28,3 +31,14 @@ class User:
                 return cls(email=user_data[1], first_name=user_data[2],
                            last_name=user_data[3], oauth_token=user_data[4],
                            oauth_token_secret=user_data[5], id=user_data[0])
+
+    def twitter_request(self, url, verb='GET'):
+        authorized_token = oauth2.Token(self.oauth_token, self.oauth_token_secret)
+        authorized_client = oauth2.Client(consumer, authorized_token)
+
+        response, content = authorized_client.request(url, verb)
+        if response.status != 200:
+            print('An error occurred while searching')
+
+        return json.loads(content.decode('utf-8'))
+
